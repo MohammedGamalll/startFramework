@@ -1,0 +1,19 @@
+nav a{
+    font-family: system-ui;
+    font-weight: 700;
+    
+}
+nav{
+    background-color: #2C3E50;
+    height: 135px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+.navbar.scrolled {
+    height: 100px;
+    transition: all 0.3s ease;
+}
+.btn-background{
+    background-color: #1ABC9C;
+}
+  

@@ -1,0 +1,23 @@
+:host {
+    --star-background-color: #2C3E50;
+}
+
+.contact {
+    margin-top: 135px;
+    h2 {
+        color: #2C3E50;
+    }
+}
+.form input{
+    box-shadow: none;
+}
+.form button {
+    background-color: #1ABC9C;
+    color: white;
+    border: none;
+    transition: all 0.3s;
+    &:hover {
+        color: #1ABC9C;
+        background-color: #000;
+    }
+}

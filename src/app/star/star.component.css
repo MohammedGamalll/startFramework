@@ -1,0 +1,32 @@
+i {
+    color: var(--star-background-color);    
+}
+.star{
+    position: relative;
+}
+.star::after{
+    content: "";
+    display: block;
+    width: 100px;
+    border-top:4px solid var(--star-background-color);
+    /* font-size: 1.5em; */
+    /* margin-left: 5px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* transform: translate(-50%, -50%); */
+    margin-left: 50px;
+}
+.star::before{
+    content: "";
+    display: block;
+    width: 100px;
+    border-top:4px solid var(--star-background-color);
+    /* font-size: 1.5em; */
+    /* margin-left: 5px; */
+    position: absolute;
+    top: 50%;
+    right:0;
+    /* transform: translate(-50%, -50%); */
+    margin-right: 50px;
+}

@@ -1,0 +1,11 @@
+:host {
+    --star-background-color: white;
+}
+.home{
+    background-color: #1ABC9C;
+    margin-top: 135px;
+}
+.image img{
+width: 250px;
+padding-top: 30px;
+}
